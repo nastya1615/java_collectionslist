@@ -41,8 +41,10 @@ public class Main {
             } else if (words[0].equals("LIST")) {
 
 
-                for (String intem : function.getTodos())
+                for (String intem : function.getTodos()){
                     System.out.println(intem);
+                }
+
 
             } else if (words[0].equals("EDIT")) {
 

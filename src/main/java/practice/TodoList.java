@@ -41,7 +41,9 @@ public class TodoList {
         if (todoList.size() > index + 1) {
             todoList.remove(index);
         } else
+        {
             System.out.println("Данного индекса нет в списке");
+        }
 
     }
 
