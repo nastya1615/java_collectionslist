@@ -1,6 +1,5 @@
 package practice;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 
@@ -14,7 +13,7 @@ public class Main {
 
 
             System.out.println("Введите команду");
-            Scanner in = new  Scanner(System.in);
+            Scanner in = new Scanner(System.in);
             String command = in.nextLine();
             String[] words = command.split("\\s");
 
@@ -64,6 +63,6 @@ public class Main {
 
 
         }
-        // TODO: написать консольное приложение для работы со списком дел todoList
+
     }
 }
