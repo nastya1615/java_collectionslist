@@ -21,7 +21,7 @@ class TodoListTest {
         todoList = new TodoList();
     }
 
-    @Test
+     @Test
     @DisplayName("Добавление одного дела")
     void addSingleTodo() {
         final String todo = "first added todo";
